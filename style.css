@@ -145,7 +145,7 @@ margin-left: 10px;  /* to give little space between 2 p tags*/
 /**hero section**/
 .hero-section{
     background-image: url(Img/hero_image.jpg);
-    height: 350px;
+    height: 300px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -166,4 +166,37 @@ margin-left: 10px;  /* to give little space between 2 p tags*/
 
 .hero-msg a{
     color: #007185;
+}
+
+/**box **/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;  /** to wrap row -2 below row1*/
+    justify-content: space-evenly;/*to give space between boxes*/
+    background-color: #e2e7e6;
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height:330px;
+    background-size: cover;  /** to avoid repetition of image*/
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+    font-weight: 700;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
