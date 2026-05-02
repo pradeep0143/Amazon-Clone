@@ -1,2 +1,2 @@
 # Amazon-Clone
-<p>Hii</p>
+<p>Developed By Pradeep Kamate</p>
